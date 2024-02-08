@@ -1,0 +1,44 @@
+/* body{
+    background-image:url("images/backgroundimage.png");
+    background-color: black;
+    background-blend-mode: color-dodge;
+    backface-visibility: ;
+   position: relative; 
+   border: 1px red solid;
+}
+
+body::before{
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+background-color: rgba(0, 0, 0, 0.54);
+z-index: 1;
+}
+h1{
+    color: azure;
+} */
+
+body{
+    background-image:url("images/backgroundimage.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+form{
+    margin: 10em 15em;
+
+   
+   
+   
+}
+h1{
+    text-align: center;
+    padding-bottom: 0.5cm;
+}
+.cc{
+    display: flex; justify-content: center
+}
+
